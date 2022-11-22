@@ -30,17 +30,19 @@ nav /* changed to navigation */{
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
 }
 
  header nav ul li {
     display: inline-block;
     margin-left: 25px;
+
 } 
 
-a {
+a /* nav links color and decoration */{
     color: #ffffff;
     text-decoration: none;
-}
+} 
 
 p {
     font-size: 16px;
@@ -54,7 +56,8 @@ figure img /* hero image */{
     background-position: center;
 }
 
-.float-left {
+.float-left /* crucial for keeping main sections in place */
+{
     float: left;
     margin-right: 25px;
 }
@@ -70,7 +73,7 @@ main {
     margin-left: 20px;
 }
 
-main section {
+main section /*combined 3id's to one main*/{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,11 +83,11 @@ main section {
 }
 
 
-main img {
+main img /* combined main img id's to one*/ {
     max-height: 200px;
 }
 
-aside {
+aside /* combined many CSS elements into one*/{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -114,7 +117,7 @@ h2 {
     font-size: 36px;
 }
 
-footer {
+footer /* font size into footer*/ {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
